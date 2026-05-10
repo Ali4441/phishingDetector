@@ -45,8 +45,16 @@ app.use('/api/reports', reportRoutes);
 app.use('/api/alerts', alertRoutes);
 
 // ── Health Check ──────────────────────────────────────
-app.get('/health', (req, res) => {
-  res.json({ status: 'OK', message: 'Server is running ' });
+// ── Health Check ──────────────────────────────────────
+app.get("/", (req, res) => {
+  res.send("Backend Running Successfully");
+});
+
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "OK",
+    message: "Server is running",
+  });
 });
 
 // ── Error Handler (Last ) ──────────────────────
