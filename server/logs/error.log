@@ -1,0 +1,842 @@
+────────────────────────────────────────────────────────────
+[2026-05-03T16:25:25.038Z] ❌ ERROR
+Message: Register error
+Meta: {
+  "message": "next is not a function",
+  "stack": "TypeError: next is not a function\n    at model.<anonymous> (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/models/User.js:14:3)\n    at async Kareem.execPre (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\kareem\\index.js:61:24)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:397:5)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async registerUser (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/authController.js:21:18)"
+}
+
+[2026-05-03T16:25:25.040Z] POST /api/auth/register | Status: 200 | Error: next is not a function
+Stack: TypeError: next is not a function
+    at model.<anonymous> (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/models/User.js:14:3)
+    at async Kareem.execPre (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\kareem\index.js:61:24)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:397:5)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async registerUser (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/authController.js:21:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-03T16:30:16.615Z] ❌ ERROR
+Message: Register error
+Meta: {
+  "message": "next is not a function"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T19:42:44.133Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a533e0b02ad079e8f65e',\n  name: 'ali',\n  email: 'amd444147@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T19:42:52.984Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a533e0b02ad079e8f65e',\n  name: 'ali',\n  email: 'amd444147@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T19:43:05.050Z] ⚠️  WARN
+Message: Login failed - Wrong password
+Meta: {
+  "email": "amd444147@gmail.com"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T19:43:27.800Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a55fe0b02ad079e8f65f',\n  name: 'asif',\n  email: 'koko234@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T19:43:38.456Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a55fe0b02ad079e8f65f',\n  name: 'asif',\n  email: 'koko234@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T19:59:45.727Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a9319d7ed04231ddd2f1',\n  name: 'ali',\n  email: 'amd444147@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T20:00:44.695Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a9319d7ed04231ddd2f1',\n  name: 'ali',\n  email: 'amd444147@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T20:01:12.596Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a9889d7ed04231ddd2f2',\n  name: 'ali',\n  email: 'amd444147@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T20:01:20.654Z] ❌ ERROR
+Message: Login error
+Meta: {
+  "message": "Cast to string failed for value \"{\n  id: '69f7a9889d7ed04231ddd2f2',\n  name: 'ali',\n  email: 'amd444147@gmail.com',\n  role: 'user'\n}\" (type Object) at path \"email\" for model \"User\""
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T20:34:08.893Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-03T20:34:08.910Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-03T20:34:56.410Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-03T20:34:56.410Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+[2026-05-03T20:37:14.257Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-03T20:37:14.256Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-03T20:38:51.194Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-03T20:38:51.196Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-03T20:41:37.733Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-03T20:41:37.734Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-05T17:26:44.081Z] ⚠️  WARN
+Message: Login failed - Wrong password
+Meta: {
+  "email": "amd444147@gmail.com"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-06T07:51:21.647Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-06T07:51:21.648Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T09:15:31.211Z] ⚠️  WARN
+Message: Login failed - User not found
+Meta: {
+  "email": "amd4444147@gmail.com"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T09:28:36.266Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T09:28:36.267Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+[2026-05-07T09:29:27.503Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T09:29:27.502Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T09:29:28.283Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T09:29:28.284Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T09:41:54.445Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T09:41:54.448Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T09:41:54.446Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+[2026-05-07T09:41:54.449Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:11:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:52:51.116Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:52:51.117Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:54:06.682Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:54:06.683Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:54:07.292Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:54:07.292Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:54:07.487Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:54:07.488Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:54:07.644Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:54:07.645Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:56:09.874Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:56:09.876Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:56:09.879Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T12:56:09.880Z] POST /api/scan/ | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:38:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T12:57:08.184Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T12:57:08.185Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:08:11.110Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T13:08:11.112Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:10:30.347Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T13:10:30.348Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+[2026-05-07T13:19:15.738Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:19:15.737Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T13:19:54.820Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T13:19:54.821Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:24:30.549Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T13:24:30.550Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:31:11.844Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T13:31:11.844Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:33:46.821Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading '_id')",
+  "stack": "TypeError: Cannot read properties of undefined (reading '_id')\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)"
+}
+
+[2026-05-07T13:33:46.823Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading '_id')
+Stack: TypeError: Cannot read properties of undefined (reading '_id')
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:14:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:38:07.825Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "http://secure-bank-login-update.xyz",
+  "confidence": 85
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T13:39:56.766Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'toLowerCase')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:35:28)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+[2026-05-07T13:39:56.767Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'toLowerCase')
+Stack: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:35:28)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+[2026-05-07T13:42:32.260Z] POST /api/scan | Status: 200 | Error: Cannot read properties of undefined (reading 'match')
+Stack: TypeError: Cannot read properties of undefined (reading 'match')
+    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:59:14)
+    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\lib\layer.js:152:17)
+    at C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:295:15
+    at processParams (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:582:12)
+    at next (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\router\index.js:291:5)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:42:32.259Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "Cannot read properties of undefined (reading 'match')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'match')\n    at analyzeWithML (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/services/mlService.js:59:14)\n    at scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:11:51)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\lib\\layer.js:152:17)\n    at C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:295:15\n    at processParams (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:582:12)\n    at next (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\router\\index.js:291:5)"
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T13:43:16.776Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: type: Path `type` is required., input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: type: Path `type` is required., input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:13:18)"
+}
+
+[2026-05-07T13:43:16.777Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: type: Path `type` is required., input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: type: Path `type` is required., input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:13:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:46:55.938Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "http://secure-bank-login-update.xyz",
+  "confidence": 85
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T13:47:55.162Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "http://secure-bank-login-update.xyz",
+  "confidence": 85
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T13:52:46.295Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "https://paypal-account-verify-login.tk",
+  "confidence": 70
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T13:56:20.623Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T13:56:20.624Z] POST /api/scan/ | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:58:00.166Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T13:58:00.166Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T13:59:37.774Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T13:59:37.775Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T14:01:19.041Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T14:01:19.042Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T14:01:48.386Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T14:01:48.387Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T14:01:54.378Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "Office365 Security Alert: Unusual login attempt detected. Verify your password immediately at http://office365-security-check.cf",
+  "confidence": 70
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T14:05:45.354Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T14:05:45.355Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T14:07:47.774Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "URGENT: Your bank account has been suspended. Verify your login immediately at http://secure-bank-login-update.xyz",
+  "confidence": 99
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T14:07:55.955Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T14:07:55.955Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T14:08:52.875Z] ❌ ERROR
+Message: Scan error
+Meta: {
+  "message": "ScanResult validation failed: input: Path `input` is required.",
+  "stack": "ValidationError: ScanResult validation failed: input: Path `input` is required.\n    at model.validate (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async model.$__save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:393:7)\n    at async model.save (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:667:5)\n    at async model.create (C:\\Users\\eed87\\OneDrive\\Desktop\\phishing-detector\\server\\node_modules\\mongoose\\lib\\model.js:2747:5)\n    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)"
+}
+
+[2026-05-07T14:08:52.875Z] POST /api/scan | Status: 200 | Error: ScanResult validation failed: input: Path `input` is required.
+Stack: ValidationError: ScanResult validation failed: input: Path `input` is required.
+    at model.validate (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\document.js:2864:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async model.$__save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:393:7)
+    at async model.save (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:667:5)
+    at async model.create (C:\Users\eed87\OneDrive\Desktop\phishing-detector\server\node_modules\mongoose\lib\model.js:2747:5)
+    at async scanInput (file:///C:/Users/eed87/OneDrive/Desktop/phishing-detector/server/controllers/scanController.js:18:18)
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
+[2026-05-07T14:12:28.225Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "URGENT: Your bank account has been suspended. Verify your login immediately at http://secure-bank-login-update.xyz",
+  "confidence": 99
+}
+
+────────────────────────────────────────────────────────────
+[2026-05-07T14:26:31.789Z] ⚠️  WARN
+Message: Phishing detected!
+Meta: {
+  "input": "http://secure-bank-login-update.xyz",
+  "confidence": 85
+}
+
